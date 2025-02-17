@@ -97,6 +97,7 @@ const ArticleList: FC = () => {
                         target="_blank"
                         href={`https://mp.weixin.qq.com/s/${item.id}`}
                       >
+                        "文章" -
                         {`${item.mpName} - ${value}`}
                       </Link>
                     </TableCell>
